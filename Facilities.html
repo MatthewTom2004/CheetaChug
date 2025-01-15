@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Cheetah Chug</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Product.html">PRODUCT GALLERY</a></li>
+                        <li><a href="Facilities.html">FACILITIES</a></li>
+                        <li><a href="Index.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>WHAT WE OFFER</h1>
+
+                       
+        </section>
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>"more than just an energy drink"</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="Images/cans.png">
+                    <h3>State of the Art Manufacturing</h3>
+                    <p> Every can of Cheetah Chug is produced in world-class facilities equipped with advanced technology to ensure the highest quality, safety, and consistency.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Images/QA.png">
+                    <h3>Quality Assurance Labs</h3>
+                    <p>Every batch undergoes rigorous quality checks to ensure it meets our high standards, delivering you a product that is as reliable as it is energizing.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Images/RD.png">
+                    <h3>R&D Innovation Hub</h3>
+                    <p>Our dedicated research and development team continually refines our formula to create innovative blends that cater to your energy needs without compromising on taste or health.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Reach us</h4>
+            <p>"Fuel Your Hustle"</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+        </section>
+
+
+        
+
+
+
+
+
+
+        <!---Javascript for the Menu-->
+<script>
+    var navLink=document.getElementById("navLinks");
+    function showMenu(){
+        navLink.style.right="0";
+    }
+    function hideMenu(){
+        navLink.style.right="-200px";
+    }
+</script>
+    </body>
+</html>

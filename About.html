@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Cheetah Chug</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Product.html">PRODUCT GALLERY</a></li>
+                        <li><a href="Facilities.html">FACILITIES</a></li>
+                        <li><a href="Index.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>ABOUT US</h1>
+
+                       
+        </section>
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>"Chase the Thrill. Chug the Speed."</h1>
+                    <p>Welcome to the world of Cheetah Chug – the energy drink crafted for those who crave speed, power, and unstoppable momentum. Inspired by the relentless spirit of the fastest predator on land, Cheetah Chug fuels your every move with an electrifying burst of energy and focus. Whether you're chasing your goals, dominating your workouts, or simply conquering the day, Cheetah Chug is here to keep you ahead of the pack. Ready to unleash your inner cheetah?</p>
+                        <a href="" class="main-btn about-btn">Know More</a>
+                </div>
+                <div class="about-col">
+                   <img src="Images/about.png"> 
+                </div>
+            </div>
+
+
+        </section>
+
+
+        
+
+       
+        
+        <section class="footer">
+            <h4>Reach us</h4>
+            <p>"Fuel Your Hustle"</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+        </section>
+
+
+        
+
+
+
+
+
+
+        <!---Javascript for the Menu-->
+<script>
+    var navLink=document.getElementById("navLinks");
+    function showMenu(){
+        navLink.style.right="0";
+    }
+    function hideMenu(){
+        navLink.style.right="-200px";
+    }
+</script>
+    </body>
+</html>

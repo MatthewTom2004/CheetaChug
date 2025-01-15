@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Cheetah Chug</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Product.html">PRODUCT GALLERY</a></li>
+                        <li><a href="Facilities.html">FACILITIES</a></li>
+                        <li><a href="Index.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box"><h1>"Chase the Thrill. Chug the Speed."</h1>
+            <p>Welcome to the world of Cheetah Chug.<br> Whether you're chasing your goals, dominating your workouts, or simply conquering the day,<br/>Cheetah Chug is here to keep you ahead of the pack. Ready to unleash your inner cheetah?</p>
+        <a href="" class="main-btn">Know More</a></div>
+        </section>
+
+
+
+        <section class="product">
+            <h1>PRODUCT GALLERY</h1>
+            <p>"CHASE, DOMINATE, & CONQUER"</p>
+            <div class="row">
+                <div class="product-col">
+                    <img src="Images/green.png">
+                    <div class="layer">
+                        <h3>POWER SURGE</h3>
+                    </div>
+
+                </div>
+                <div class="product-col">
+                    <img src="Images/red.png">
+                    <div class="layer">
+                        <h3>RASPBERRY RIOT</h3>
+                    </div>
+
+                </div>
+                <div class="product-col">
+                    <img src="Images/yellow.png ">
+                    <div class="layer">
+                        <h3>CITRUS BLAST</h3>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>"more than just an energy drink"</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="Images/cans.png">
+                    <h3>State of the Art Manufacturing</h3>
+                    <p> Every can of Cheetah Chug is produced in world-class facilities equipped with advanced technology to ensure the highest quality, safety, and consistency.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Images/QA.png">
+                    <h3>Quality Assurance Labs</h3>
+                    <p>Every batch undergoes rigorous quality checks to ensure it meets our high standards, delivering you a product that is as reliable as it is energizing.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Images/RD.png">
+                    <h3>R&D Innovation Hub</h3>
+                    <p>Our dedicated research and development team continually refines our formula to create innovative blends that cater to your energy needs without compromising on taste or health.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="testimonials">
+            <h1>Customer Remarks</h1>
+            <p>"conquering the day"</p>
+            <div class="row">
+                <div class="test-col">
+                    <img src="Images/ryan.png">
+                    <div><p>Cheetah Chug is a game-changer! I’ve tried so many energy drinks, but none come close to this. It gives me the perfect energy boost without the crash, and the taste is incredible. Whether I’m hitting the gym or tackling a busy workday, it’s my go-to companion!</p>
+                        <h3>James</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    
+                </div>
+                <div class="test-col">
+                    <img src="Images/hugh.png">
+                    <div><p>"I love how Cheetah Chug keeps me focused and energized for hours. As someone who’s always on the move, it’s like having a burst of cheetah-level energy in every sip. Plus, the sleek design of the can is just a bonus. Highly recommend!</p>
+                        <h3>Matthew</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <h4>Reach us</h4>
+            <p>"Fuel Your Hustle"</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+        </section>
+
+
+        
+
+
+
+
+
+
+        <!---Javascript for the Menu-->
+<script>
+    var navLink=document.getElementById("navLinks");
+    function showMenu(){
+        navLink.style.right="0";
+    }
+    function hideMenu(){
+        navLink.style.right="-200px";
+    }
+</script>
+    </body>
+</html>
